@@ -30,10 +30,10 @@ def readLog(filePath):
          cntErr+=1
        if(isValidDateTime):
          if(len(warn)>1):
-           writeFile(os.path.abspath("C:/Users/Piyush/Desktop/WARN.txt"),warn)
+           writeFile(os.path.abspath("C:/Users/Dheeraj/Desktop/WARN.txt"),warn)
            warn=""
          if(len(error)>1):
-           writeFile(os.path.abspath("C:/Users/Piyush/Desktop/ERROR.txt"),error)
+           writeFile(os.path.abspath("C:/Users/Dheeraj/Desktop/ERROR.txt"),error)
            error=""
        if(len(warn)>1):
          warn+="\n"
